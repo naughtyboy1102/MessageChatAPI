@@ -1,0 +1,36 @@
+{
+  "name": "ChatAPI",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "start:server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naughtyboy1102/MessageChatAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naughtyboy1102/MessageChatAPI/issues"
+  },
+  "homepage": "https://github.com/naughtyboy1102/MessageChatAPI#readme",
+  "dependencies": {
+    "@withvoid/make-validation": "1.0.5",
+    "cors": "2.8.5",
+    "express": "4.16.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.9.18",
+    "morgan": "1.9.1",
+    "socket.io": "2.3.0",
+    "uuid": "8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
