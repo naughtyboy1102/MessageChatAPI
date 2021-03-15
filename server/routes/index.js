@@ -1,12 +1,15 @@
 import express from 'express';
 // controllers
-import users from '../controllers/user.js';
+import users from '../controllers/UserController.js';
 // middlewares
-import { encode } from '../middlewares/jwt.js';
+//import { encode } from '../middlewares/jwtHelper.js';
 
 const router = express.Router();
 
 router
-  .post('/login/:userId', encode, (req, res, next) => { });
+  .get('/', (req, res) => {
+    res.send("Hello");
+  })
+  //.post('/login/:userId', encode, (req, res, next) => { });
 
 export default router;
